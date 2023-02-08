@@ -1,0 +1,88 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "tsx": true
+        },
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "react-hooks",
+        "prettier"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react/jsx-filename-extension": [
+          1,
+          {
+            "extensions": [
+              ".tsx"
+            ]
+          }
+        ],
+        "import/prefer-default-export": "off",
+        "import/extensions": [
+          "error",
+          "ignorePackages",
+          {
+            "ts": "never",
+            "tsx": "never"
+          }
+        ],
+        "prettier/prettier": "error",
+        // TODO: Revise, fix and turn on some of the rules
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "react/jsx-props-no-spreading": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "no-empty-function": "off",
+        // "consistent-return": ["warn", { "treatUndefinedAsUnspecified": true }],
+        "consistent-return": "off",
+        "no-underscore-dangle": "off",
+        "no-nested-ternary": "off",
+        "react/prop-types": "off",
+        "react/require-default-props": "off",
+        "no-plusplus": ["warn", { "allowForLoopAfterthoughts": true }],
+        "no-unused-expressions": "off",
+        "no-param-reassign": "off",
+        "no-shadow": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "react/no-array-index-key": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/no-noninteractive-element-to-interactive-role": "off",
+        "camelcase": "off"
+      },
+      "settings": {
+        "import/resolver": {
+          "typescript": {}
+        },
+        "react": {
+            "version": "detect"
+        }
+    }
+}

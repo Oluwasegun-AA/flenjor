@@ -1,0 +1,134 @@
+.mail{
+    border: 1px solid #6e6c6c;
+    border-radius: 4px;
+    height: max-content;
+    max-width: $content_width;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_email_input{
+    height: 20px;
+    color: white;
+    caret-color: white;
+    outline: none;
+    background: #6e6c6c;
+    border-radius: 5px;
+    margin: 0px 0px 5px 0px;
+    &::-webkit-input-placeholder {
+        color: white;
+     }
+     
+     &::-moz-input-placeholder {
+        color: white;
+     }
+     
+     &:-moz-input-placeholder {
+        color: white;
+     }
+     
+     &:-ms-input-placeholder {
+        color: white;
+     }
+}
+
+textarea, input {
+    padding: 10px;
+}
+
+.send-mail {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_message_input {
+    height: 130px;
+    outline: none;
+    color: white;
+    caret-color: white;
+    background: #6e6c6c;
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin: 5px 0px 5px 0px;
+    &::-webkit-input-placeholder {
+       color: white;
+     }
+     
+     &::-moz-input-placeholder {
+       color: white;
+     }
+     
+     &:-moz-input-placeholder {
+       color: white;
+     }
+     
+     &:-ms-input-placeholder {
+       color: white;
+     }
+}
+
+.send-mail > svg {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.mail_btn {
+    display: flex;
+    flex-direction: row-reverse;
+    left: 5px;
+    margin: 5px 0px 5px 0px;
+
+    .standard-btn--ash {
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+    }
+}
+
+.body_container {
+    width: 100vw;
+    margin: auto;
+}
+
+[class$="_column_right"], [class$="_column_left"] {
+    flex-grow: 1;
+}
+
+@include tiny-screen {
+    .mail{
+        max-width: $content_width;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+}
+
+@include mobile-screen {
+    .mail{
+        // width: calc(100vw/ 1.2);
+        max-width: $content_width;
+        min-width: 320px;
+    }
+  }
+
+@include tablet-screen {
+     .mail{
+        // width: calc(100vw/ 1.2);
+        max-width: $content_width;
+        min-width: 320px;
+    }
+  }
+
+@include desktop-screen {
+     .mail{
+         max-width: $content_width;
+         min-width: 220px;
+        //  width: calc(100vw/ 2);
+    }
+  }

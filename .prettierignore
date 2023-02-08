@@ -1,0 +1,5 @@
+src/graphql-types/*
+README.md
+package.json
+.eslintrc.json
+tsconfig.json

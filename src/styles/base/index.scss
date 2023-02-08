@@ -1,0 +1,84 @@
+@import '../fonts/fonts.scss';
+@import './variables.scss';
+@import './mixin.scss';
+
+html,
+body,
+#root,
+.routes {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: max-content;
+  background-color: $background;
+  font-family: R-regular;
+}
+
+.main_container{
+  width: 100%;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+
+  .body_container{
+    height: max-content;
+
+    @include tiny-screen {
+    width: $content_width;
+    }
+
+  @include mobile-screen {
+  width: $content_width;  
+  }
+
+  @include tablet-screen {
+  width: $content_width;  
+  }
+
+  @include desktop-screen {
+  width: $content_width;  
+  }
+
+  @include large-desktop-screen {
+  width: $content_width;  
+  }
+  }
+}
+
+.info {
+    height: max-content;
+}
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  &--row{
+  flex-direction: row;
+  }
+  &--column{
+  flex-direction: column;
+  }
+}
+
+.center {
+  margin: auto;
+}
+
+.body_container{
+  max-width: 100vw;
+}
+
+.page-body{
+  min-height: calc(100vh - 100px);
+}

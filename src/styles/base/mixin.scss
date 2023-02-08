@@ -1,0 +1,56 @@
+/* Mixins
+  =============== */
+
+// Media query for mobile first layout
+
+@mixin very-tiny-screen {
+  @media (max-width: #{$xs_Mobile}) {
+    @content;
+  }
+}
+
+@mixin tiny-screen {
+  @media (min-width: #{$xs_Mobile}) {
+    @content;
+  }
+}
+
+@mixin mobile-screen {
+  @media (min-width: #{$sm_Mobile}) {
+    @content;
+  }
+}
+ 
+@mixin tablet-screen {
+  @media (min-width: #{$md_Tablet}) {
+    @content;
+  }
+}
+
+// Break on desktop
+@mixin desktop-screen {
+  @media (min-width: #{$lg_Desktop}) {
+    @content;
+  }
+}
+
+@mixin large-desktop-screen {
+  @media (min-width: #{$xl_Desktop}) {
+    @content;
+  }
+}
+
+@mixin btn-config {
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn-config-standard {
+  border-radius: 3px;
+  min-width: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

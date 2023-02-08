@@ -1,0 +1,70 @@
+.title_container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $ashBorder;
+}
+.page_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page_title {
+    color: $whiteText;
+    text-align: left;
+
+    .title {
+        font-family: R-semiBold;
+        font-size: 20px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .title_description {
+        font-family: R-regular;
+        font-size: 15px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    &_centerPane{
+        width: $content_width; 
+        text-align: left;
+    }
+}
+
+@include tiny-screen {
+    .title {
+        font-size: 20px;
+    }
+.section_column_right, .section_column_left{
+    display: none;
+}
+}
+
+@include mobile-screen {
+    .title {
+        font-size: 22px;
+    }
+    .section_column_right, .section_column_left{
+        display: none;
+    }
+  }
+
+@include tablet-screen {
+    .title {
+        font-size: 24px;
+    }
+     .section_column_right, .section_column_left{
+         display: block;
+     }
+  }
+
+@include desktop-screen {
+    .title {
+        font-size: 28;
+    }
+      .section_column_right, .section_column_left{
+          display: block;
+      }
+  }

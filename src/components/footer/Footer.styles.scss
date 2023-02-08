@@ -1,0 +1,46 @@
+@import '../../styles/base/mixin.scss';
+@import '../../styles/fonts/fonts.scss';
+@import '../../styles/base/variables.scss';
+
+.container {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.centered_content {
+    width: $content_width;
+}
+
+.nav,
+.footer{
+    height: 50px;
+}
+
+.footer{
+    margin-top: auto;
+    background-color: $background;
+}
+
+.footer_content,
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    img {
+        height: 30px;
+        width: 30px;
+        margin: 0px 20px 0px 20px;
+        background-color: rgb(153, 146, 146);
+        border-radius: 5px;
+        opacity: 0.5;
+    }
+
+    img:hover{
+        opacity: 0.8;
+    }
+}
