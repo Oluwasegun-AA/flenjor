@@ -9,7 +9,7 @@ const NavigationBar: React.FC = (): ReactElement => {
         <div className="nav_centreLogo">
           <div>
             <Link className="link logo" to="/">
-              Flenjo
+              Filenjo
             </Link>
           </div>
         </div>
