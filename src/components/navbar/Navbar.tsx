@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
-import { darkMode } from '../../assets';
+import { danceNav } from '../../assets';
 
 const NavigationBar: React.FC = (): ReactElement => {
   return (
@@ -9,12 +9,12 @@ const NavigationBar: React.FC = (): ReactElement => {
         <div className="nav_centreLogo">
           <div>
             <Link className="link logo" to="/">
-              Filenjo
+              Filenjọ
             </Link>
           </div>
         </div>
         <div className="nav_centreButtons">
-          <img className="nav_contrastModeIcon" src={darkMode} alt="darkmode" />
+          <img className="nav_contrastModeIcon" src={danceNav} alt="darkmode" />
         </div>
       </div>
     </nav>
