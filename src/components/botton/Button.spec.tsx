@@ -1,11 +1,11 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Home } from '../../views';
+import Button from './Button';
 
-describe('App renders successfully', () => {
-  it('renders learn react link', () => {
-    render(<Home />);
-    const linkElement = screen.getByText(/Olúwáségun/i);
-    expect(linkElement).toBeInTheDocument();
+describe('renders successfully', () => {
+  it('renders the body sections', () => {
+    render(<Button value="test button" onClick={() => ''} className="" />);
+    const buttonText = screen.getByText(/test button/i);
+    expect(buttonText).toBeInTheDocument();
   });
 });

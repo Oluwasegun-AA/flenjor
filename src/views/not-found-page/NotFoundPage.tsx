@@ -51,13 +51,6 @@ const NotFoundPage: React.FC = (): ReactElement => {
                   <p>Please check back later.</p>
                 </div>
               </div>
-
-              <div id="content" className="small-screen_404">
-                <div id="title">
-                  <h1>Comming Soon. . . </h1>
-                  <p>Please check back later.</p>
-                </div>
-              </div>
             </div>
           }
         />
