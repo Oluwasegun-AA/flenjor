@@ -1,11 +1,13 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Home } from '../../views';
+import Footer from './Footer';
 
-describe('App renders successfully', () => {
-  it('renders learn react link', () => {
-    render(<Home />);
-    const linkElement = screen.getByText(/Olúwáségun/i);
-    expect(linkElement).toBeInTheDocument();
+describe('renders successfully', () => {
+  it('renders the body', () => {
+    render(<Footer />);
+    const navElement = screen.getAllByRole(/nav/i);
+    const imgElement = screen.getAllByRole(/img/i);
+    expect(navElement).toHaveLength(1);
+    expect(imgElement).toHaveLength(3);
   });
 });

@@ -1,0 +1,25 @@
+.centreBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 100px);
+}
+
+.section_container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+}
+
+.section_column_center{
+    width: $content_width;
+    height: max-content;
+}
+
+.section_column_right, .section_column_left{
+    flex-grow: 1;
+}

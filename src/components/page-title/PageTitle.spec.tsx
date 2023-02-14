@@ -1,11 +1,11 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Home } from '../../views';
+import PageTitle from './PageTitle';
 
-describe('App renders successfully', () => {
-  it('renders learn react link', () => {
-    render(<Home />);
-    const linkElement = screen.getByText(/Olúwáségun/i);
-    expect(linkElement).toBeInTheDocument();
+describe('renders successfully', () => {
+  it('renders the body', () => {
+    render(<PageTitle titleText="Hello World" />);
+    const divElement = screen.queryAllByText('Hello World');
+    expect(divElement).toHaveLength(1);
   });
 });

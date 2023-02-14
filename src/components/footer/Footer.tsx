@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import { linkedinBlack, twitterBlack, instagramBlack } from '../../assets';
 
-const Footer: React.FC = (): ReactElement => {
+function Footer(): ReactElement {
   return (
     <nav className="container footer">
       <div className="centered_content footer_content">
@@ -25,6 +25,6 @@ const Footer: React.FC = (): ReactElement => {
       </div>
     </nav>
   );
-};
+}
 
 export default Footer;

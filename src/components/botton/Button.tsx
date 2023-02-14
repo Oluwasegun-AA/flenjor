@@ -1,4 +1,4 @@
-import React, { FC, JSXElementConstructor, ReactElement } from 'react';
+import React, { JSXElementConstructor, ReactElement } from 'react';
 
 interface IButton {
   className: string;
@@ -6,14 +6,12 @@ interface IButton {
   onClick: (event: React.MouseEvent<HTMLSpanElement, MouseEvent>) => void;
 }
 
-const Button: FC<IButton> = ({
-  className,
-  onClick,
-  value,
-}: IButton): ReactElement => (
-  <span className={className} onClick={onClick}>
-    {value}
-  </span>
-);
+function Button({ className, onClick, value }: IButton): ReactElement {
+  return (
+    <span className={className} onClick={onClick}>
+      {value}
+    </span>
+  );
+}
 
 export default Button;
