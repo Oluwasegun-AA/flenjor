@@ -6,11 +6,11 @@ interface IPageTitle {
   className?: string;
 }
 
-const PageTitle: React.FC<IPageTitle> = ({
+function PageTitle({
   titleText,
   descriptionText,
   className,
-}: IPageTitle): ReactElement => {
+}: IPageTitle): ReactElement {
   const parentClass = `container title_container ${className}`;
   return (
     <div className={parentClass}>
@@ -26,6 +26,6 @@ const PageTitle: React.FC<IPageTitle> = ({
       </section>
     </div>
   );
-};
+}
 
 export default PageTitle;

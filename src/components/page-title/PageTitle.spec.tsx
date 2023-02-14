@@ -9,4 +9,3 @@ describe('renders successfully', () => {
     expect(divElement).toHaveLength(1);
   });
 });
-

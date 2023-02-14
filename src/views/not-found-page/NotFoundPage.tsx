@@ -3,7 +3,7 @@ import { Footer } from '../../components';
 import BodySubSection from '../../components/body-section/BodySection';
 import NavigationBar from '../../components/navbar/Navbar';
 
-const NotFoundPage: React.FC = (): ReactElement => {
+function NotFoundPage(): ReactElement {
   return (
     <div className="main_container">
       <NavigationBar />
@@ -58,6 +58,6 @@ const NotFoundPage: React.FC = (): ReactElement => {
       <Footer />
     </div>
   );
-};
+}
 
 export default NotFoundPage;

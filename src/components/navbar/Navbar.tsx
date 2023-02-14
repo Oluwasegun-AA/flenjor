@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
 import { danceNav } from '../../assets';
 
-const NavigationBar: React.FC = (): ReactElement => {
+function NavigationBar(): ReactElement {
   return (
     <nav className="container nav">
       <div className="centered_content nav_content">
@@ -19,6 +19,6 @@ const NavigationBar: React.FC = (): ReactElement => {
       </div>
     </nav>
   );
-};
+}
 
 export default NavigationBar;

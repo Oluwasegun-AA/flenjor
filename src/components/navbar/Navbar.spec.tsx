@@ -8,7 +8,7 @@ describe('renders successfully', () => {
     render(
       <BrowserRouter>
         <Routes>
-          <Route path="*" element={<NavigationBar/>} />
+          <Route path="*" element={<NavigationBar />} />
         </Routes>
       </BrowserRouter>,
     );
