@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { NotFoundPage } from '../views';
 
 // setup browser router for url routing
-const Routes: React.FC<any> = () => (
+const appRoutes: React.FC<any> = () => (
   <BrowserRouter>
-    <Switch>
-      <Route exact path="*" component={NotFoundPage} />
-    </Switch>
+    <Routes>
+      <Route path="*" element={<NotFoundPage />} />
+    </Routes>
   </BrowserRouter>
 );
 
-export default Routes;
+export default appRoutes;

@@ -1,15 +1,15 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavigationBar from './Navbar';
 
 describe('renders successfully', () => {
   it('renders the body', () => {
     render(
       <BrowserRouter>
-        <Switch>
-          <Route exact path="*" component={NavigationBar} />
-        </Switch>
+        <Routes>
+          <Route path="*" element={<NavigationBar/>} />
+        </Routes>
       </BrowserRouter>,
     );
     const navElement = screen.getAllByRole(/nav/i);
