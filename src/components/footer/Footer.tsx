@@ -8,7 +8,7 @@ function Footer(): ReactElement {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.linkedin.com/in/filenjo/"
+          href="https://www.linkedin.com/company/filenjo/"
         >
           <img src={linkedinBlack} alt="linkedIn" />
         </a>
