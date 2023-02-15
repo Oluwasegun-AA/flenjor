@@ -16,6 +16,7 @@ body{
 	background: #F2F2F2;
 	height:100%;
 }
+
 /*
 STYLES FOR ILLUSTRATION ELEMENTS
 */
@@ -25,9 +26,11 @@ STYLES FOR ILLUSTRATION ELEMENTS
 	position:absolute;
 	top:50%;
 }
+
 #content{
 	text-align:center;
 }
+
 #gears{
 	width:478px;
 	height:655px;
@@ -68,13 +71,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 /*gear-system-1*/
 #gear15{
-	background: url(../../assets/gears.png) no-repeat 0 -993px; 
-	width: 321px; 
+	background: url(../../assets/gears.png) no-repeat 0 -993px;
+	width: 321px;
 	height: 321px;
 	position:absolute;
 	left:45px;
 	top:179px;
-	
+
 	-webkit-animation: rotate-back 24000ms linear infinite;
 	-moz-animation: rotate-back 24000ms linear infinite;
 	-ms-animation: rotate-back 24000ms linear infinite;
@@ -82,8 +85,8 @@ STYLES FOR ILLUSTRATION ELEMENTS
 }
 
 #gear14{
-	background: url(../../assets/gears.png) no-repeat 0 -856px; 
-	width: 87px; 
+	background: url(../../assets/gears.png) no-repeat 0 -856px;
+	width: 87px;
 	height: 87px;
 	position:absolute;
 	left:162px;
@@ -91,13 +94,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 }
 
 #gear13{
-	background: url(../../assets/gears.png) no-repeat 0 -744px; 
-	width: 62px; 
-	height: 62px; 
+	background: url(../../assets/gears.png) no-repeat 0 -744px;
+	width: 62px;
+	height: 62px;
 	position:absolute;
 	left:174px;
 	top:309px;
-	
+
 	-webkit-animation: rotate 8000ms linear infinite;
 	-moz-animation: rotate 8000ms linear infinite;
 	-ms-animation: rotate 8000ms linear infinite;
@@ -107,12 +110,12 @@ STYLES FOR ILLUSTRATION ELEMENTS
 /*gear-system-2*/
 #gear10{
 	background: url(../../assets/gears.png) no-repeat 0 -184px;
-	width: 122px; 
+	width: 122px;
 	height: 122px;
 	position:absolute;
 	left:175px;
 	top:0;
-	
+
 	-webkit-animation: rotate-back 8000ms linear infinite;
 	-moz-animation: rotate-back 8000ms linear infinite;
 	-ms-animation: rotate-back 8000ms linear infinite;
@@ -121,12 +124,12 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 #gear3{
 	background: url(../../assets/gears.png) no-repeat 0 -1493px;
-	width: 85px; 
+	width: 85px;
 	height: 84px;
 	position:absolute;
 	left:194px;
 	top:19px;
-	
+
 	-webkit-animation: rotate 10000ms linear infinite;
 	-moz-animation: rotate 10000ms linear infinite;
 	-ms-animation: rotate 10000ms linear infinite;
@@ -136,13 +139,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 /*gear-system-3*/
 #gear9{
-	background: url(../../assets/gears.png) no-repeat -371px -280px; 
-	width: 234px; 
+	background: url(../../assets/gears.png) no-repeat -371px -280px;
+	width: 234px;
 	height: 234px;
 	position:absolute;
 	left:197px;
 	top:96px;
-	
+
 	-webkit-animation: rotate 12000ms linear infinite;
 	-moz-animation: rotate 12000ms linear infinite;
 	-ms-animation: rotate 12000ms linear infinite;
@@ -150,13 +153,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 }
 
 #gear7{
-	background: url(../../assets/gears.png) no-repeat -371px 0; 
-	width: 108px; 
+	background: url(../../assets/gears.png) no-repeat -371px 0;
+	width: 108px;
 	height: 108px;
 	position:absolute;
 	left:260px;
 	top:159px;
-	
+
 	-webkit-animation: rotate-back 10000ms linear infinite;
 	-moz-animation: rotate-back 10000ms linear infinite;
 	-ms-animation: rotate-back 10000ms linear infinite;
@@ -165,13 +168,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 /*gear-system-4*/
 #gear6{
-	background: url(../../assets/gears.png) no-repeat 0 -1931px; 
-	width: 134px; 
+	background: url(../../assets/gears.png) no-repeat 0 -1931px;
+	width: 134px;
 	height: 134px;
 	position:absolute;
 	left:305px;
 	bottom:212px;
-	
+
 	-webkit-animation: rotate-back 10000ms linear infinite;
 	-moz-animation: rotate-back 10000ms linear infinite;
 	-ms-animation: rotate-back 10000ms linear infinite;
@@ -179,13 +182,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 }
 
 #gear4{
-	background: url(../../assets/gears.png) no-repeat 0 -1627px; 
-	width: 69px; 
+	background: url(../../assets/gears.png) no-repeat 0 -1627px;
+	width: 69px;
 	height: 69px;
 	position:absolute;
 	left:337px;
 	bottom:245px;
-	
+
 	-webkit-animation: rotate-back 10000ms linear infinite;
 	-moz-animation: rotate-back 10000ms linear infinite;
 	-ms-animation: rotate-back 10000ms linear infinite;
@@ -194,13 +197,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 /*gear-system-5*/
 #gear12{
-	background: url(../../assets/gears.png) no-repeat 0 -530px; 
-	width: 164px; 
+	background: url(../../assets/gears.png) no-repeat 0 -530px;
+	width: 164px;
 	height: 164px;
 	position:absolute;
 	left:208px;
 	bottom:85px;
-	
+
 	-webkit-animation: rotate 8000ms linear infinite;
 	-moz-animation: rotate 8000ms linear infinite;
 	-ms-animation: rotate 8000ms linear infinite;
@@ -208,13 +211,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 }
 
 #gear11{
-	background: url(../../assets/gears.png) no-repeat 0 -356px; 
-	width: 125px; 
+	background: url(../../assets/gears.png) no-repeat 0 -356px;
+	width: 125px;
 	height: 124px;
 	position:absolute;
 	left:228px;
 	bottom:105px;
-	
+
 	-webkit-animation: rotate-back 10000ms linear infinite;
 	-moz-animation: rotate-back 10000ms linear infinite;
 	-ms-animation: rotate-back 10000ms linear infinite;
@@ -222,13 +225,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 }
 
 #gear8{
-	background: url(../../assets/gears.png) no-repeat -371px -158px; 
-	width: 72px; 
+	background: url(../../assets/gears.png) no-repeat -371px -158px;
+	width: 72px;
 	height: 72px;
 	position:absolute;
 	left:254px;
 	bottom:131px;
-	
+
 	-webkit-animation: rotate 6000ms linear infinite;
 	-moz-animation: rotate 6000ms linear infinite;
 	-ms-animation: rotate 6000ms linear infinite;
@@ -237,13 +240,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 /*gear1*/
 #gear1{
-	background: url(../../assets/gears.png) no-repeat 0 0; 
-	width: 135px; 
+	background: url(../../assets/gears.png) no-repeat 0 0;
+	width: 135px;
 	height: 134px;
 	position:absolute;
 	left:83px;
 	bottom:111px;
-	
+
 	-webkit-animation: rotate-back 10000ms linear infinite;
 	-moz-animation: rotate-back 10000ms linear infinite;
 	-ms-animation: rotate-back 10000ms linear infinite;
@@ -253,13 +256,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 /*gear-system-6*/
 #gear5{
-	background: url(../../assets/gears.png) no-repeat 0 -1746px; 
-	width: 134px; 
+	background: url(../../assets/gears.png) no-repeat 0 -1746px;
+	width: 134px;
 	height: 135px;
 	position:absolute;
 	left:22px;
 	top:108px;
-	
+
 	-webkit-animation: rotate 10000ms linear infinite alternate;
 	-moz-animation: rotate 10000ms linear infinite alternate;
 	-ms-animation: rotate 10000ms linear infinite alternate;
@@ -267,13 +270,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 }
 
 #gear2{
-	background: url(../../assets/gears.png) no-repeat 0 -1364px; 
-	width: 80px; 
+	background: url(../../assets/gears.png) no-repeat 0 -1364px;
+	width: 80px;
 	height: 79px;
 	position:absolute;
 	left:49px;
 	top:136px;
-	
+
 	-webkit-animation: rotate-back 10000ms linear infinite alternate;
 	-moz-animation: rotate-back 10000ms linear infinite alternate;
 	-ms-animation: rotate-back 10000ms linear infinite alternate;
@@ -282,13 +285,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 /*weight*/
 #weight{
-	background: url(../../assets/gears.png) no-repeat -371px -564px; 
-	width: 34px; 
+	background: url(../../assets/gears.png) no-repeat -371px -564px;
+	width: 34px;
 	height: 92px;
 	position:absolute;
 	left:1px;
 	bottom:0;
-	
+
 	-webkit-animation: up 10000ms linear infinite alternate;
 	-moz-animation: up 10000ms linear infinite alternate;
 	-ms-animation: up 10000ms linear infinite alternate;
@@ -298,13 +301,13 @@ STYLES FOR ILLUSTRATION ELEMENTS
 
 /*chain*/
 #chain-circle{
-	background: url(../../assets/gears.png) no-repeat -371px -706px; 
-	width:146px; 
+	background: url(../../assets/gears.png) no-repeat -371px -706px;
+	width:146px;
 	height:147px;
 	position:absolute;
 	left:17px;
 	top:102px;
-	
+
 	-webkit-animation: rotate 10000ms linear infinite alternate;
 	-moz-animation: rotate 10000ms linear infinite alternate;
 	-ms-animation: rotate 10000ms linear infinite alternate;
@@ -318,7 +321,7 @@ STYLES FOR ILLUSTRATION ELEMENTS
 	left:17px;
 	top:175px;
 	opacity:0.7;
-	
+
 	-webkit-animation: collapse 10000ms linear infinite alternate;
 	-moz-animation: collapse 10000ms linear infinite alternate;
 	-ms-animation: collapse 10000ms linear infinite alternate;

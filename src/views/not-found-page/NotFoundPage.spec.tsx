@@ -13,6 +13,6 @@ describe('App renders successfully', () => {
       </BrowserRouter>,
     );
     const linkElement = screen.queryAllByText('Comming Soon. . .');
-    expect(linkElement).toHaveLength(1);
+    expect(linkElement).toHaveLength(2);
   });
 });
