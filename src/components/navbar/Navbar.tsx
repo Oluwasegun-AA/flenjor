@@ -3,10 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import { danceNav, flenjorNameLogo } from '../../assets';
 
 function NavigationBar(): ReactElement {
-  const navigate = useNavigate();
+  const navigateTo = useNavigate();
 
   const handleClick = () => {
-    navigate('/');
+    navigateTo('/');
   };
 
   return (
