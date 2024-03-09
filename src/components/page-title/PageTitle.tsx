@@ -10,7 +10,7 @@ function PageTitle({
   titleText,
   descriptionText,
   className,
-}: IPageTitle): ReactElement {
+}: Readonly<IPageTitle>): ReactElement {
   const parentClass = `container title_container ${className}`;
   return (
     <div className={parentClass}>
