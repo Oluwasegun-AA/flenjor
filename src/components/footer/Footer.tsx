@@ -8,17 +8,21 @@ function Footer(): ReactElement {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.linkedin.com/company/filenjo/"
+          href="https://www.linkedin.com/company/weflenjor/"
         >
           <img src={linkedinBlack} alt="linkedIn" />
         </a>
-        <a target="_blank" rel="noreferrer" href="https://twitter.com/filenjo">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://twitter.com/weflenjor"
+        >
           <img src={twitterBlack} alt="twitter" />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.instagram.com/filenjo/"
+          href="https://www.instagram.com/weflenjor/"
         >
           <img src={instagramBlack} alt="instagram" />
         </a>

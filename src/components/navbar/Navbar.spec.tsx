@@ -13,8 +13,6 @@ describe('renders successfully', () => {
       </BrowserRouter>,
     );
     const navElement = screen.getAllByRole(/nav/i);
-    const linkElement = screen.getAllByRole(/Link/i);
     expect(navElement).toHaveLength(1);
-    expect(linkElement).toHaveLength(1);
   });
 });

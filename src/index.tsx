@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
 import {
   ApolloProvider,
@@ -40,11 +40,16 @@ const client = new ApolloClient({
   },
 });
 
-ReactDOM.render(
-  <ApolloProvider client={client}>
-    <Routes />
-  </ApolloProvider>,
-  document.getElementById('root'),
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement,
+);
+
+root.render(
+  <React.StrictMode>
+    <ApolloProvider client={client}>
+      <Routes />
+    </ApolloProvider>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
