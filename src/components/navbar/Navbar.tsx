@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { danceNav, flenjorNameLogo } from '../../assets';
+import { flenjorNameLogo } from '../../assets';
 
 function NavigationBar(): ReactElement {
   const navigateTo = useNavigate();
@@ -20,7 +20,7 @@ function NavigationBar(): ReactElement {
           </div>
         </div>
         <div className="nav_centreButtons">
-          <img className="nav_contrastModeIcon" src={danceNav} alt="darkmode" />
+          <span className="nav_slogan">#TheSoftLife</span>
         </div>
       </div>
     </nav>
