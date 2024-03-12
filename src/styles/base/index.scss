@@ -28,19 +28,19 @@ body,
     }
 
   @include mobile-screen {
-  width: $content_width;  
+  width: $content_width;
   }
 
   @include tablet-screen {
-  width: $content_width;  
+  width: $content_width;
   }
 
   @include desktop-screen {
-  width: $content_width;  
+  width: $content_width;
   }
 
   @include large-desktop-screen {
-  width: $content_width;  
+  width: $content_width;
   }
   }
 }
@@ -81,4 +81,5 @@ body,
 
 .page-body{
   min-height: calc(100vh - 100px);
+  overflow-x: hidden;
 }

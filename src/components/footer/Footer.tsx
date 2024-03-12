@@ -1,5 +1,11 @@
 import React, { ReactElement } from 'react';
-import { linkedinBlack, twitterBlack, instagramBlack } from '../../assets';
+import {
+  linkedinBlack,
+  twitterBlack,
+  instagramBlack,
+  tiktokBlack,
+  youtubeBlack,
+} from '../../assets';
 
 function Footer(): ReactElement {
   return (
@@ -25,6 +31,20 @@ function Footer(): ReactElement {
           href="https://www.instagram.com/weflenjor/"
         >
           <img src={instagramBlack} alt="instagram" />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://tiktok.com/@weflenjor"
+        >
+          <img src={tiktokBlack} alt="tiktok" />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.youtube.com/@flenjor"
+        >
+          <img src={youtubeBlack} alt="tiktok" />
         </a>
       </div>
     </nav>

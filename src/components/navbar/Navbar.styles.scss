@@ -8,6 +8,7 @@
 }
 
 .nav {
+    height: 50px;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -56,9 +57,9 @@
     }
     .nav_slogan{
       font-family:  Bradley hand, cursive;
-      // font-family:  'Brush Script MT', cursive;
-
       font-weight: bold;
+      font-size: 15px;
+      padding-right: 8px;
     }
 }
 
