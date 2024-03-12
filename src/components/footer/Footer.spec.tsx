@@ -8,6 +8,6 @@ describe('renders successfully', () => {
     const navElement = screen.getAllByRole(/nav/i);
     const imgElement = screen.getAllByRole(/img/i);
     expect(navElement).toHaveLength(1);
-    expect(imgElement).toHaveLength(3);
+    expect(imgElement).toHaveLength(5);
   });
 });
