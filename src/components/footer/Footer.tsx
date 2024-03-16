@@ -42,7 +42,7 @@ function Footer(): ReactElement {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.youtube.com/@flenjor"
+          href="https://www.youtube.com/channel/UC-W5ptrkKLG9a2w9KrEuwww?sub_confirmation=1"
         >
           <img src={youtubeBlack} alt="tiktok" />
         </a>
